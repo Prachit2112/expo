@@ -1,4 +1,11 @@
----
+---npm install -g expo-cli eas-cli
+
+cd path/to/TravelBookingApp_Final
+npm install
+npx expo login
+npx eas build:configure
+npx eas build -p android --profile preview --platform android --output-format apk
+
 title: create-expo-app
 maxHeadingDepth: 4
 description: A command-line tool to create a new Expo and React Native project.
